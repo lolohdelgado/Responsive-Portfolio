@@ -91,7 +91,7 @@
     }
 
     .nav-item {
-        transform: translate3d(600px,0,0);
+        transform: translateX(600px);
         @include easeOut;
         &.show {
             transform:translate3d(0,0,0);
