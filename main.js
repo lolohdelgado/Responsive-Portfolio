@@ -1,15 +1,10 @@
-// Select DocumentObjectModel Items
 const menuBtn = document.querySelector('.menu-btn');
-//querySelector grabs only the first one
 const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
 const menuBranding = document.querySelector('.menu-branding');
 const navItems = document.querySelectorAll('.nav-item');
-//querySelectorAll grabs all the items of that spice (array)
 
-//Set Initial State of the Menu
-
-let showMenu = false;   //false=close true=open
+let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
 
