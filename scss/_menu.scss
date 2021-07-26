@@ -14,21 +14,18 @@
          @include easeOut;
     }
 
-    //Rotate into X with menu lines
     &.close {
         transform: rotate(180deg);
 
-        .btn-line{
-            //line 1 rotate
+        .btn-line {
             &:nth-child(1) {
                 transform: rotate(45deg) translate(5px, 5px);
             }
 
-            //line 2 hide
             &:nth-child(2) {
                 opacity:0;
             }
-            //line 3 rotate
+
             &:nth-child(3) {
                 transform: rotate(-45deg) translate(7px, -6px);
             }
@@ -42,7 +39,7 @@
     width: 100%;
     visibility: hidden;
 
-    &.show{
+    &.show {
         visibility: visible;
     }
 
